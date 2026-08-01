@@ -1,0 +1,38 @@
+# E.V. Assistant Dependencies
+
+# Core AI & LLM
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Voice Interface
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.13
+gTTS>=2.3.0
+playsound>=1.3.0
+
+# Web Search
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+duckduckgo-search>=4.0.0
+
+# Document Processing
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+markdown>=3.5.0
+
+# Code Analysis
+astroid>=3.0.0
+black>=23.0.0
+
+# Memory & Storage
+sqlite3
+chromadb>=0.4.0
+
+# Utilities
+python-dotenv>=1.0.0
+rich>=13.0.0
+click>=8.1.0
+
+# Optional: Computer Control
+psutil>=5.9.0
+pyautogui>=0.9.54
